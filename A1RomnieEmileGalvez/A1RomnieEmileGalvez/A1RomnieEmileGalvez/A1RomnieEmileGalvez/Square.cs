@@ -10,8 +10,6 @@ namespace A1RomnieEmileGalvez
     public class Square: Rectangle
     {
         private int _side;
-
-
         public int Side
         {
             get { return _side; }

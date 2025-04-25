@@ -62,10 +62,6 @@ namespace A1RomnieEmileGalvez
         {
             return $"{base.ToString()} {Length} {Width} {Opacity:P2} {Area():F2} {Diameter():F2}";
         }
-
-
-
-
     }
 
 }

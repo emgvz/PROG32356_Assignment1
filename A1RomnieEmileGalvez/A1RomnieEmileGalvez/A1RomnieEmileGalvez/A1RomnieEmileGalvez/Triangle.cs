@@ -53,7 +53,6 @@ namespace A1RomnieEmileGalvez
         }
 
         // derive class constructor
-
         public Triangle(int shapeId, ShapeTypes shapeTypes, int sideA, int sideB, int sideC, double opacity) : base(shapeId, shapeTypes, opacity)
         {
             SideA = sideA;
@@ -78,7 +77,5 @@ namespace A1RomnieEmileGalvez
 
 
         }
-
-
     }
 }

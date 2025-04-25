@@ -13,9 +13,6 @@ namespace A1RomnieEmileGalvez
     internal class Program
     {
         public static List<Shape> shapes = new List<Shape>();
-        //public static List<Triangle> triangle = new List<Triangle>();
-        //public static List<Rectangle> rectangle = new List<Rectangle>();
-        //public static List<Rectangle> square = new List<Rectangle>();
 
         static int nextId = 1;
 
@@ -93,14 +90,13 @@ namespace A1RomnieEmileGalvez
             {
                 if (rectangleShape is Rectangle rectangle && !(rectangleShape is Square)) // excludes the square, without the second condition
                 {                                                                         // shape details from the square will be added to the rectangle, since square is inhering from rectangle 
-                    table.AddRow(rectangle.ShapeId, rectangle.Length, rectangle.Width, 
+                    table.AddRow(rectangle.ShapeId, rectangle.Length, rectangle.Width,
                                 rectangle.Opacity, rectangle.Area().ToString("F2"), rectangle.Diameter().ToString("F2"));
                 }
-                
+
             }
             table.Write();
         }
-
 
         static void TriangleDetails(List<Shape> shapes)
         {
@@ -119,7 +115,6 @@ namespace A1RomnieEmileGalvez
             }
             table.Write();
         }
-
 
         static void SquareDetails(List<Shape> shapes)
         {
@@ -164,15 +159,12 @@ namespace A1RomnieEmileGalvez
                 Console.WriteLine("");
                 Console.Write("Press any key to continue. . .");
             }
-
             catch (Exception ex)
             {
                 Console.Write($"Error! {ex.Message}");
                 Console.WriteLine("");
                 Console.Write("Press any key to continue. . .");
-
             }
-
         }
 
         static void AddRectangleMenu(List<Shape> shapes)
@@ -205,7 +197,6 @@ namespace A1RomnieEmileGalvez
                 Console.WriteLine($"Error! {ex.Message}");
                 Console.WriteLine("");
                 Console.Write("Press any key to continue. . .");
-
             }
         }
 
@@ -256,8 +247,6 @@ namespace A1RomnieEmileGalvez
                 Console.Write("Enter Opacity: ");
 
                 double opacity = double.Parse(Console.ReadLine());
-
-
                 int triangleId = generateId();
 
                 shapes.Add(new Triangle(triangleId, ShapeTypes.Triangle, sideA, sideB, sideC, opacity));
@@ -276,7 +265,6 @@ namespace A1RomnieEmileGalvez
                 Console.WriteLine($"Error: {ex.Message}");
                 Console.WriteLine("");
                 Console.Write("Press any key to continue. . .");
-
             }
         }
 
@@ -336,13 +324,10 @@ namespace A1RomnieEmileGalvez
                     default:
                         Console.Write("Invalid choice!");
                         return;
-
-
                 }
             }
 
         }
-
         static void EditShapeMenu(List<Shape> shapes)
         {
 
@@ -399,7 +384,6 @@ namespace A1RomnieEmileGalvez
                     default:
                         Console.Write("Invalid choice!");
                         return;
-
                 }
             }
         }
@@ -630,9 +614,6 @@ namespace A1RomnieEmileGalvez
                 Console.WriteLine("");
                 Console.Write("Press any key to continue. . .");
             }
-
-
-
         }
 
         static void EditTriangleMenu(List<Shape> shapes)
@@ -718,8 +699,6 @@ namespace A1RomnieEmileGalvez
                 Console.Write("Press any key to continue. . .");
             }
         }
-
-
 
         static void DeleteShapeMenu(List<Shape> shapes)
         {
@@ -837,7 +816,6 @@ namespace A1RomnieEmileGalvez
                 Console.Write("Press any key to continue. . .");
             }
         }
-
 
         static void DeleteRectangleMenu(List<Shape> shapes)
         {
@@ -1010,7 +988,6 @@ namespace A1RomnieEmileGalvez
         static void Main(string[] args)
         {
             // start of the program
-
             // premade objects
 
             List<Shape> shapes = new List<Shape>();
@@ -1032,7 +1009,6 @@ namespace A1RomnieEmileGalvez
                 Console.Clear();
 
                 Details();
-
                 DisplayMenu(); // displays the menu
 
                 int choice;
@@ -1077,9 +1053,7 @@ namespace A1RomnieEmileGalvez
                     default:
                         Console.WriteLine("Invalid option, only options 1-5 are available.");
                         return;
-
                 }
-
             }
         }
     }

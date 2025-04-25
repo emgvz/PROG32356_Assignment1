@@ -12,7 +12,6 @@ namespace A1RomnieEmileGalvez
         Circle, Triangle, Rectangle, Square
     }
 
-
     public abstract class Shape
     {
         // fields
@@ -83,7 +82,6 @@ namespace A1RomnieEmileGalvez
 
         public override string ToString()
         {
-
             return $"{_shapeId}";
 
             //return $"\n{_shapeTypes}:\n" +
