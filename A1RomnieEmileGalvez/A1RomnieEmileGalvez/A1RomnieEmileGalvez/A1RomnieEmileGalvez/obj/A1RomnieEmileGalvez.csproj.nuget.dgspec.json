@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romni\\OneDrive\\Desktop\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez.csproj": {}
+    "D:\\GitHub\\PROG32356_Assignment1\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romni\\OneDrive\\Desktop\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez.csproj": {
+    "D:\\GitHub\\PROG32356_Assignment1\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romni\\OneDrive\\Desktop\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez.csproj",
+        "projectUniqueName": "D:\\GitHub\\PROG32356_Assignment1\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez.csproj",
         "projectName": "A1RomnieEmileGalvez",
-        "projectPath": "C:\\Users\\romni\\OneDrive\\Desktop\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez.csproj",
+        "projectPath": "D:\\GitHub\\PROG32356_Assignment1\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez.csproj",
         "packagesPath": "C:\\Users\\romni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romni\\OneDrive\\Desktop\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\obj\\",
+        "outputPath": "D:\\GitHub\\PROG32356_Assignment1\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\A1RomnieEmileGalvez\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

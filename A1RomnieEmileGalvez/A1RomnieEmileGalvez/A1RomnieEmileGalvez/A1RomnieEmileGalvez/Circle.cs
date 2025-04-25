@@ -11,7 +11,6 @@ namespace A1RomnieEmileGalvez
     {
         private int _radius;
         
-        // this will throw when user inputs a wrong input on runtime
         public int Radius
         {
             get { return _radius; }
