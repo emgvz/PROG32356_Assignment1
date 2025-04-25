@@ -1,2 +1,1 @@
-About
 This C# project is a menu-driven application designed to manage different geometric shapes using object-oriented programming (OOP) principles. It incorporates abstraction, polymorphism, and inheritance to allow users to add, edit, and delete shapes dynamically.
